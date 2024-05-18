@@ -1,0 +1,16 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx json-server --watch db/db.json --port 3001",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@apibrew/client": "^1.1.70",
+    "json-server": "^1.0.0-beta.0"
+  }
+}
